@@ -22,13 +22,13 @@ minute hour day-of-month month day-of-week command
 
 ### Field Ranges
 
-| Field        | Range |
-| ------------ | ----- |
-| minute       | 0–59  |
-| hour         | 0–23  |
-| day of month | 1–31  |
-| month        | 1–12  |
-| day of week  | 0–6   |
+| Field        | Range   |
+| ------------ | ------- |
+| minute       | 0–59    |
+| hour         | 0–23    |
+| day of month | 1–31    |
+| month        | 1–12    |
+| day of week  | sun-mon |
 
 _(0 is Sunday, like in cron)_
 
