@@ -39,14 +39,14 @@ _(0 is Sunday, like in cron)_
 You can run it like this:
 
 ```bash
-node crontab.js "*/15 0 1,15 * 1-5 /usr/bin/find"
+node crontab.js "*/15 0 1,15 * mon-fri /usr/bin/find"
 ```
 
 Or make it executable and run directly:
 
 ```bash
 chmod +x crontab.js
-./crontab.js "*/15 0 1,15 * 1-5 /usr/bin/find"
+./crontab.js "*/15 0 1,15 * mon-fri /usr/bin/find"
 ```
 
 **Example output**
